@@ -11,9 +11,9 @@ class Item
 end
 
 puts "Enter the Item's name"
-a=gets.chomp
+a = gets.chomp
 puts "Enter the quantity"
-b=gets.chomp
+b = gets.chomp
 puts "The Ites'name and quantity is:"
-Item.new(a, b).show
-
+object = Item.new(a, b)
+object.show

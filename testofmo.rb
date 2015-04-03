@@ -1,6 +1,6 @@
 class Try
 	def welcome
-		@name=name
+		@name = name
 		puts "#{hello} #{@name.capitalize}"
 	end
 end
@@ -11,10 +11,10 @@ class Input < Try
 	end
 	def name;
 		puts "Enter name"
-		name=gets.chomp
+		name = gets.chomp
 		name;
 	end
 end
 
-object=Input.new
+object = Input.new
 object.welcome

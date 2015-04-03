@@ -14,4 +14,5 @@ class Input < Try
 		name;
 	end
 end
-Input.new.welcome
+object=Input.new
+object.welcome

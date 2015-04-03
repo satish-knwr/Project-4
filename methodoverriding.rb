@@ -10,4 +10,5 @@ class ConcreteKlass < AbstractKlass
   def name; "Ruby students"; end  
 end  
   
-ConcreteKlass.new.welcome
+object=ConcreteKlass.new
+object.welcome

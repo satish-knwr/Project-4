@@ -4,6 +4,7 @@ class Try
 		puts "#{hello} #{@name.capitalize}"
 	end
 end
+
 class Input < Try
 	def hello;
 		"Hello";
@@ -14,5 +15,6 @@ class Input < Try
 		name;
 	end
 end
+
 object=Input.new
 object.welcome

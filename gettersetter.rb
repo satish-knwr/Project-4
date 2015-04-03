@@ -1,23 +1,23 @@
 class Detail
   def name=(value)
-      @name = value
+    @name = value
   end
  
   def address=(value)
-      @address = value
+    @address = value
   end
  
   def mobile=(value)
-      @mobile = value
+    @mobile = value
   end
   def name
-      @name
+    @name
   end
   def address
-      @address
+    @address
   end
   def mobile
-      @mobile
+    @mobile
   end
 end
  
